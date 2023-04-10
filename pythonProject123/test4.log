@@ -1,0 +1,15 @@
+INFO root 2023-04-10 13:25:06,555 I am trying to read a file 
+INFO root 2023-04-10 13:25:22,466 I am trying to read a file 
+ERROR root 2023-04-10 13:25:22,467 [Errno 2] No such file or directory: 'madhu.txt' 
+INFO root 2023-04-10 13:25:58,316 I am trying to read a file 
+CRITICAL root 2023-04-10 13:25:58,317 This is a situation for us 
+ERROR root 2023-04-10 13:25:58,317 [Errno 2] No such file or directory: 'madhu.txt' 
+CRITICAL root 2023-04-10 13:27:51,475 This is a situation for us 
+INFO root 2023-04-10 13:28:51,789 I am trying to read a file 
+CRITICAL root 2023-04-10 13:28:51,792 This is a situation for us 
+ERROR root 2023-04-10 13:28:51,793 [Errno 2] No such file or directory: 'madhu.txt' 
+ERROR root 2023-04-10 13:28:51,793 [Errno 2] No such file or directory: 'madhu.txt' 
+Traceback (most recent call last):
+  File "/Users/madhu/PycharmProjects/pythonProject123/test4.py", line 8, in <module>
+    with open("madhu.txt", "r"):
+FileNotFoundError: [Errno 2] No such file or directory: 'madhu.txt'
